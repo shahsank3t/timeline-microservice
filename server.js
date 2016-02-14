@@ -10,6 +10,7 @@ function toNormalDate(date){
 }
 
 app.get('/:date', function(req, res){
+	res.writeHead(200, {"Content-Type": "application/json"});
 	var date = Date.parse(req.params.date);
 	if(isNaN(date)){
 		res.send({unix: null, natural: null});
