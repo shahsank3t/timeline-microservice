@@ -16,6 +16,3 @@ Hit the URL: http://localhost:8080 in your web browser.
 
 ## Example Output:
 	`{ "unix": 1454956200000, "natural": "February 9, 2016" }`
-
-# Demo
-<a href="https://timestamp-ms-shahsank3t.c9users.io">https://timestamp-ms-shahsank3t.c9users.io</a>
